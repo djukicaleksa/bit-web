@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    background-color: green;
+    float: right;
+}
+ul li{
+float: left;
+margin-right: 20px;
+}
+
+
+.cf::before, .cf::after{
+display: table;
+content: '';
+}
+
+.cf:after{
+    clear: both;
+    display: table;
+    content: '';
+}

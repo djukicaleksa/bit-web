@@ -1,0 +1,15 @@
+img{
+    display: block;
+}
+#first-image{
+    height: 200px;
+}
+
+#second-image{
+    width: 200px;
+}
+
+#third-image{
+    height: 200px;
+    width: 200px;
+}

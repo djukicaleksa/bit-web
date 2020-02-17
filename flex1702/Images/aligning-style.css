@@ -1,0 +1,29 @@
+
+.cf::before, .cf::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img{
+    display: block;
+}
+
+#first-image{
+    height: 200px;
+    float: right;
+    clear: left;
+}
+
+#second-image{
+    width: 200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#third-image{
+    height: 200px;
+    width: 200px;
+    float: left;
+    clear: right;
+}
