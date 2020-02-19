@@ -1,0 +1,34 @@
+.cf::before, .cf::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    background: url(./x-wing-626330\ opacity\ 40%.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img{
+    display: block;
+}
+
+#first-image{
+    height: 200px;
+    float: right;
+    clear: left;
+}
+
+#second-image{
+    width: 200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#third-image{
+    height: 200px;
+    width: 200px;
+    float: left;
+    clear: right;
+}
