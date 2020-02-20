@@ -1,0 +1,4 @@
+@mixin boxshadow ($a,$b,$c){
+    box-shadow: $a $b $c;}
+@mixin textshadow ($a,$b,$c,$d){
+    text-shadow: $a $b $c $d;}
