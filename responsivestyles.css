@@ -1,0 +1,35 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+  }
+header img {
+    float: left;
+    height: 50px;
+
+}
+header h5{
+    position: relative;
+    left: 53px;
+    
+}
+header{
+    width: 90%;
+    margin: 0px auto;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+#second{
+    
+    border-left: solid 3px black;
+    margin-left: 5 px;
+    padding-left: 5px;
+}

@@ -1,0 +1,53 @@
+.firstrow{
+    @include bcgblue;
+}
+.secondrow{
+    @include bcggreen;
+    img{
+        margin: 0 auto;
+        display: block;
+
+    }
+}
+.thirdrow{
+    @include bcggreen;
+    h1{
+      text-align: center;
+    }
+}
+.fourthrow{
+    @include bcggreen;
+    text-decoration: line-through white;
+    p{
+        text-align: center;
+    }
+}
+.fifthrow{
+    @include bcggreen;
+    p{
+        text-align: center;
+    }
+}
+.sixthrow{
+    text-align: center;
+    margin-top: 90px;
+
+}
+.seventhrow{
+    text-decoration: line-through black;
+    text-align: center;
+    margin-top: px;
+}
+
+    
+.marginporto{
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    img{
+        width: 25%;
+        float: left;
+        margin:5px 3%
+    }
+ 
+}
