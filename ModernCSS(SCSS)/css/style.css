@@ -1,0 +1,20 @@
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  background-image: url(../background/turtle.png); }
+  body p, body .one, body .two, body .three {
+    font-size: 2em;
+    text-align: center;
+    color: black; }
+  body .one {
+    border: dotted 3px red;
+    background-color: coral; }
+  body .two {
+    border: solid 5px blue;
+    background-color: crimson; }
+  body .three {
+    border: double 10px white;
+    background-color: yellowgreen; }
+
+/*# sourceMappingURL=style.css.map */

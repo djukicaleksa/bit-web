@@ -1,0 +1,51 @@
+// $textcolor:yellowgreen;
+// $width1200:1200px;
+
+// body{
+//     background-image: url(../background/turtle.png);
+//     max-width:$width1200;
+//     width: 100%;
+//     margin: 0 auto;
+//     p{
+//     font-size: 5em;
+//     color:$textcolor;
+//     background-color: rgb(144, 45, 144);
+//     position: relative;
+//     text-align: center;
+//     border-radius: 25%;
+//     }
+// }
+// @import 'variables';
+// @import 'mixins';
+// @import 'main';
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    background-image: url(../background/turtle.png);;
+
+p{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    
+}
+.one{
+    @extend p;
+    border: dotted 3px red;
+    background-color: coral;
+
+}
+.two{
+    @extend p;
+    border: solid 5px blue;
+    background-color: crimson;
+}
+.three{
+    @extend p;
+    border: double 10px white;
+    background-color: yellowgreen;
+}
+}
+
+

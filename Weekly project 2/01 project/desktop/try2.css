@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    width: 100%;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+header h2{
+    font-weight: lighter;
+}
+    
+#first {
+    max-width: 1200px;
+    width: 100%;
+    position: absolute;
+    
+}
+#menu{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#menu li{
+    float: left;
+    list-style:none;
+    color: white;
+    margin: 10px;
+}
+#logo{
+    margin-left: 10px;
+    color: white;
+}
+#logo span{
+    color: orange;
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding-left: 3px;
+}
+#second {
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    top: 25%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    
+}
+
+#banner {
+    width: 100%
+   
+}
+/***********************MAIN******************************/
+#whoweare{ width: 100%;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+#whoweare h1{
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+#secondimage{
+    width: 100%;
+}
+
+.two{
+    width: 30%;
+    margin: 10px;
+    padding: 3px;
+}
+.two{
+    font-size: 5;
+    font-weight: 500;
+}
+.two ul{
+    margin-left: 0 !important;
+    padding-left: 15px;
+}
+
+.two ul li {
+list-style-image: url(../../images/arrow_bullet.png);
+font-size: 12px;
+
+}
+.two h3 { 
+
+    color: rgb(0, 195, 255);
+    font-weight: lighter;
+}  
+main{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+#middleone{
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    margin:  0 auto 30px auto;
+    display: flex;
+    justify-items: center;
+}
+
+#center{
+    display:flex;
+    width: 70%;
+    margin: 0 auto;
+}
+/************************MAIN PART 2******************************/
+
+#thirdone  h1{
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
