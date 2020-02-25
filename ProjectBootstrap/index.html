@@ -1,3 +1,22 @@
+<!--PRVIRED-->
+<!-- <div class="row firstrow">
+    <div class="col">
+        <h1>BIT STUDENT</h1>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+
+            <li><a href="#">PORTOFOLIO</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+</div> -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,19 +36,22 @@
     <div class="container-fluid">
         <!--PRVIRED-->
         <div class="row firstrow">
-            <div class="col">
+            <div class="col offset-2">
                 <h1>BIT STUDENT</h1>
             </div>
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-
-                    <li><a href="#">PORTOFOLIO</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">PORTOFOLIO<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+            </nav>
         </div>
 
         <!--DRUGIRED-->
@@ -75,17 +97,17 @@
         <div class="row eightrow">
             <div class="col">
                 <div class="marginporto clearfix">
-                    <img src="img/portofilio/cabin.png" alt="">
-                    <img src="img/portofilio/cake.png" alt="">
-                    <img src="img/portofilio/circus.png" alt="">
-                    <img src="img/portofilio/game.png" alt="">
-                    <img src="img/portofilio/safe.png" alt="">
-                    <img src="img/portofilio/submarine.png" alt="">
+                    <img class="foto" src="img/portofilio/cabin.png" alt="">
+                    <img class="foto" src="img/portofilio/cake.png" alt="">
+                    <img class="foto" src="img/portofilio/circus.png" alt="">
+                    <img class="foto" src="img/portofilio/game.png" alt="">
+                    <img class="foto" src="img/portofilio/safe.png" alt="">
+                    <img class="foto" src="img/portofilio/submarine.png" alt="">
                 </div>
             </div>
         </div>
         <!--DEVETIRED-->
-        <div class="row ninethrow">
+        <div class="row ninthrow">
             <div class="col">
                 <h3>ABOUT</h3>
             </div>
@@ -100,7 +122,7 @@
         </div>
         <!--JEDANAESTIRED-->
         <div class="row eleventhrow">
-            <div class="col">
+            <div class="col-2 offset-4">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident mollitia ut enim, ex,
                     blanditiis
                     possimus soluta totam distinctio sit vitae, voluptatibus quasi iure. Et, consequatur cum!
@@ -108,17 +130,21 @@
                     delectus nemo explicabo officia consequatur minima, sed itaque similique totam cupiditate
                     quia quod.
                 </p>
-                <br>
+            </div>
+
+            <div class="col-2">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sequi cum blanditiis id, hic
                     soluta
                     suscipit minima amet atque voluptates ipsam qui officiis nulla est ex delectus, tempore
                     officia
                     excepturi! Aliquam in fugit hic architecto quis possimus delectus cum quibusdam!</p>
+
             </div>
         </div>
         <!--DVANAESTIIRED-->
         <div class="row twelverow">
-            <div class="col"><button><a href="">FIND OUT MORE</a></button></div>
+            <div class="col text-center"><button><a href="">
+                <i class="fas fa-info-circle"></i>FIND OUT MORE</a></button></div>
         </div>
 
         <!--TRINAESTIRED-->
@@ -139,38 +165,73 @@
         <div class="row fifteenrow">
             <div class="col">
                 <form action="PUSH">
-                    <label><input type="text" name="name" placeholder="Name"></label><br>
-                    <label><input type="email" name="email" placeholder="Email Address"></label><br>
-                    <label><input type="number" name="number" placeholder="Phone Number"></label><br>
-                    <textarea name="message" cols="30"></textarea>
-                    <button type="submit">Send</button>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-3 offset-md-5"><input type="text" name="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-2 offset-5"><input type="email" name="email"
+                                placeholder="Email Address">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-2 offset-5"><input type="number" name="number"
+                                placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-2 offset-5"> <textarea name="message" cols="30"
+                                placeholder="Message"></textarea></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-2 offset-5"> <button type="submit">Send</button></div>
+                    </div>
                 </form>
             </div>
         </div>
         <!--SESNAESTIRED-->
+        <div class="row sixteenrowtwo">
+            <div class="col-2 offset-3">
+                <h5>LOCATION</h5>
+            </div>
+            <div class="col-2">
+                <h5>AROUND THE WEB</h5>
+            </div>
+            <div class="col-2">
+                <h5>MORE DETAILS</h5>
+            </div>
+        </div>
         <div class="row sixteenrow">
-            <div class="col">
-                <div id="location">
-                    <h5>LOCATION</h5>
-                    <p>Centar za obrazovanje</p>
-                    <p>BIT TECHNOLOGY</p>
-                    <p>Kneza Milosa 82,Beograd</p>
-                </div>
-                <div id="around">
-                    <h5>AROUND THE WEB</h5>
-                    <a href="www.facebook.com"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.google.rs"><i class="fab fa-google-plus"></i></a>
-                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div id="moredetails">
-                    <h5>MORE DETAILS</h5>
-                    <p>We believe that the future of Serbia firmly depends on our ability to scale the number of
-                        individuals involved in the IT sector.That is why we founded BIT.</p>
-                </div>
+
+            <div class="col-2 offset-3" id="location">
+
+                <p>Centar za obrazovanje</p>
+                <p>BIT TECHNOLOGY</p>
+                <p>Kneza Milosa 82,Beograd</p>
+            </div>
+            <div class="col-2 " id="around">
+
+
+
+
+
+                <a href="www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.google.rs"><i class="fab fa-google-plus"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+
 
 
             </div>
+            <div class="col-2" id="moredetails">
+
+                <p>We believe that the future of Serbia firmly depends on our ability to scale the number of
+                    individuals involved in the IT sector.That is why we founded BIT.</p>
+            </div>
+
+
+
         </div>
         <!--FOOTER-->
         <div class="row footer">

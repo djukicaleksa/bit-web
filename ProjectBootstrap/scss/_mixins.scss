@@ -7,6 +7,10 @@
     color: white;
 }
 @mixin middle {
-    margin: 0 auto;
+    margin: 0em auto;
     display: block;
+}
+@mixin alignbold {
+    text-align: center;
+        font-weight: bolder;
 }

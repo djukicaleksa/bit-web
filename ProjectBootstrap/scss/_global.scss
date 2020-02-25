@@ -4,7 +4,7 @@
 .secondrow{
     @include bcggreen;
     img{
-        margin: 0 auto;
+        margin: 2em auto 1.5em auto;
         display: block;
 
     }
@@ -13,30 +13,71 @@
     @include bcggreen;
     h1{
       text-align: center;
+        font-weight: bolder;
+        font-size: 3em;
     }
 }
 .fourthrow{
     @include bcggreen;
     text-decoration: line-through white;
     p{
-        text-align: center;
+        @include alignbold;    
+    
+        font-size: 2em;
+    
     }
 }
 .fifthrow{
     @include bcggreen;
     p{
-        text-align: center;
+        
+        @include alignbold;        
+        margin-bottom: 2.1em;       
     }
 }
 .sixthrow{
-    text-align: center;
-    margin-top: 90px;
-
+    @include alignbold;
+    margin-top: 2em;
+    font-size: 2em;
 }
 .seventhrow{
     text-decoration: line-through black;
-    text-align: center;
-    margin-top: px;
+    @include alignbold;
+    font-size: 2em;
+}
+.ninthrow{
+    
+    @extend .sixthrow;
+    @include bcggreen;
+    h3{
+        margin-top: 2em;
+    }
+}
+.tenthrow{
+    @extend .fourthrow;
+    @include bcggreen;    
+}
+.eleventhrow{
+    @include bcggreen;
+    
+}
+.twelverow{
+    @include bcggreen;
+    button {
+        margin: 5px 0 50px;
+        a{
+            color: white;
+            border:solid 1px white;
+            padding:5px;
+        }
+        
+    }
+}
+.thirteenthrow{
+    @extend .sixthrow;
+}
+.fourteenrow{
+    @extend .seventhrow;
 }
 
     
@@ -44,10 +85,111 @@
     max-width: 70%;
     width: 100%;
     margin: 0 auto;
-    img{
-        width: 25%;
-        float: left;
-        margin:5px 3%
+    img:nth-child(3n){
+        margin-right: 0;
     }
+    img{
+        width: 27%;
+        float: left;
+        margin:5px 3%;
+        
+        
+        
+    }
+    
  
+}
+input{
+    width: 100%;
+    border: 0;
+}
+textarea{
+    width:100%;
+    border: none;
+}
+button{
+    @include bcggreen;
+    border: none;
+    border-radius: 5px;
+    
+}
+.sixteenrow{
+    @include bcgblue;
+    text-align: center;
+    @include alignbold;
+    div{
+        margin-top: 10;
+    }
+    div:nth-child(2){
+       
+        a{
+            color: white;
+            i{
+                font-size: 2em;
+            }
+        }
+    }
+    p{
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+}
+.sixteenrowtwo{
+    text-align: center;
+    @include bcgblue;
+    h5{
+        font-size: 2em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+
+}
+.footer{
+    @include bcgblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    p{
+        margin-bottom: 0;
+    }
+    
+    
+    
+}
+.navbar{
+@include bcgblue;
+font-weight: bold;
+ li a{
+     color: white;
+ }
+}
+
+
+@media only screen and (max-width: 780px) {
+    .marginporto{
+        max-width: 70%;
+        width: 100%;
+        margin: 0 auto;
+        img:nth-child(3n){
+            margin-right: 0;
+        }
+        img{
+            width: 27%;
+            float: left;
+            margin:5px 3%;
+            
+            
+            
+        }
+        
+     
+    }
+    .foto {
+        width: 48%;
+        margin-right: 4%;
+    }
+
+    .marginporto:nth-child(2n) {
+        margin-right: 0;
+    }
 }
