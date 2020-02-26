@@ -1,0 +1,148 @@
+header{
+    position: relative;
+}
+#top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+#bannerimg{
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.topl{
+
+    h1{
+        margin-top: 5%;
+        span{
+            color: orange;
+        }
+    }
+  
+    
+
+}
+.topr{
+    nav{
+        margin-top: 5%;
+    }
+    
+}
+
+
+
+.centerbanner{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    align-items: center;
+    span{
+        color: orange;
+    }
+    p{
+        text-align: center;
+    }
+
+}
+.scrdown{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    bottom:5%;
+    
+}
+///////////////////////////////////MAIN
+.secondrow{
+    background-image: url(../img/newsletter-background.jpg);
+    height: 250px;
+    col form .form-group input{
+        margin:100 auto ;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////MEDIAS 
+@media all and (max-width:567px){
+    ////////////////////////////////HEADER
+    .topl h1{
+        font-size:1em;
+
+    }
+    .topr{ 
+        
+        ul li{
+        font-size: 0.5em;
+        a img{
+            width: 50%;
+        }
+    }
+}
+    
+    
+    .centerbanner{
+        h1{
+            font-size: 1em;
+        }
+        p{
+            font-size:0.5em;
+        }
+        a{
+            font-size:0.5em;
+            
+        }
+    }
+    .bannerscroll{
+        img{
+            width: 50%;
+        }
+    }
+    ///////////////////////////////////MAIN
+    .firstrow div:nth-child(1n){
+        margin: 15% auto;
+
+    }
+}
+
+
+@media all and (min-width:960px)
+{
+    ///////////////////////////////////MAIN
+    .ico{
+        margin: 10% 2%;
+    }
+    .icofirst{
+        margin-left: 20%;
+    }
+    
+    
+
+
+}
