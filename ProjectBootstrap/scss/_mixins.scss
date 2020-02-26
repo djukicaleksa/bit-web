@@ -1,0 +1,16 @@
+@mixin bcggreen {
+    background-color: $green;
+    color: white;
+}
+@mixin bcgblue {
+    background-color: $blue;
+    color: white;
+}
+@mixin middle {
+    margin: 0em auto;
+    display: block;
+}
+@mixin alignbold {
+    text-align: center;
+        font-weight: bolder;
+}
