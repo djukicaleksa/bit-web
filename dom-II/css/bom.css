@@ -1,0 +1,28 @@
+.secondcolor {
+  background-color: pink;
+}
+
+.setcolor {
+  background-color: purple;
+}
+
+.setthird {
+  background-color: red;
+  text-transform: uppercase;
+}
+
+.active {
+  background-color: royalblue;
+}
+
+.red {
+  border: solid 1px red;
+}
+
+img {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
