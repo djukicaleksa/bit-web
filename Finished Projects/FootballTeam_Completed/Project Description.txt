@@ -1,0 +1,5 @@
+Create a webpage with 15 player(Instances of Player function),
+Write a function that will randomly place 15 in two sections,first one consisting of eleven players,
+and second one of the remaining 4(First Team and Bench).
+Then write a function that will randomly select and switch 1 player from the First Team with 1 player from the Bench.
+Set some interval for function invocation.

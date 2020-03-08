@@ -1,0 +1,36 @@
+
+body{
+    background-image: url(../images/bgIcon.png);
+}
+main {
+    height:634px;
+    width: 1200px;
+    margin: auto;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: 10%;
+    border: solid 20px teal;
+}
+.mario {
+    width: 68px;
+    height: 96px;
+    background-image: url(../images/mario.png);
+    top: 73%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.movingRight {
+    background-image: url(../images/mario_running.gif);
+    transition: all 300ms;
+}
+.movingLeft {
+    background-image: url(../images/mario_runningLeft.gif);
+    transition: all 300ms;
+}
+.jump{
+    top: 65%;
+    transition: all 200ms;
+    background-image: url(../images/mario_running.gif);
+}
