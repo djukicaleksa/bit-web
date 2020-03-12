@@ -1,0 +1,31 @@
+body {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+
+.wrapper {
+  position: relative;
+  top: 610px;
+  margin: 0 auto;
+}
+
+.mario {
+  height: 150px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../img/mario.png);
+  background-size: cover;
+  top: 75%;
+}
+
+.moving {
+  background-image: url(../img/mario_running.gif);
+}
+
+/*# sourceMappingURL=main.css.map */
