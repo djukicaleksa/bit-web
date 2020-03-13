@@ -1,0 +1,42 @@
+#headerBgColor {
+  background-color: #343a40; }
+  #headerBgColor h1 {
+    color: white;
+    font-size: 1.3em; }
+  #headerBgColor label {
+    color: white; }
+  #headerBgColor input {
+    height: 20px;
+    margin: 13.936px 0; }
+
+#headerAlign {
+  height: 50px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+#popularShowsTitle {
+  text-align: center; }
+
+.gallery {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+ul {
+  list-style: none;
+  position: absolute;
+  top: 30px;
+  right: 162px; }
+  ul li {
+    padding: 3px;
+    background-color: white;
+    border-bottom: solid 1px black;
+    width: 157.8px; }
+
+/*# sourceMappingURL=styles.css.map */
